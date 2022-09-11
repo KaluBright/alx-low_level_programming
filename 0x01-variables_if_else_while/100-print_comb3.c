@@ -5,22 +5,27 @@
  * Return: Always 0 (Success/correct)
  */
 
-
 int main(void)
+
 {
 	int i;
 	int j;
 
 	for (i = 48; i < 58; i++)
 	{
-		for (j = 48; &&i < j)
+		for (j = 48; j < 58; j++)
 		{
-			putchar(i);
-			putchar(j);
-			if (j == 57 && i == 56)
+			if (i != j && i < j)
 			{
-				break
-					;
+				putchar(i);
+				putchar(j);
+				if (j == 57 && i == 56)
+				{
+					break
+						;
+				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
