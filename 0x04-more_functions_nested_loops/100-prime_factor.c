@@ -15,7 +15,6 @@ int main(void)
 		p = i;
 		if ((fp % p) == 0)
 			fp = fp / p;
-		
 		else
 			i++;
 	}
