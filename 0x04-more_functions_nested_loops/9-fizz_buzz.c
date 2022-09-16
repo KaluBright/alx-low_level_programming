@@ -24,5 +24,7 @@ int main(void)
 		printf("%d", i);
 		printf("%s", i < 100 ? " " : "");
 		}
+	printf("\n");
+
 	return (0);
 }
