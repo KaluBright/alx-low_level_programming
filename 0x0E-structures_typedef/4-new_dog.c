@@ -80,6 +80,4 @@ dog_t *new_dog(char *name, float age, char *owner)
 	newerDog->owner = _strcpy(newerDog->owner, owner);
 
 	return (newerDog);
-
-}
 }
