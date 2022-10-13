@@ -8,7 +8,7 @@
  *
  * Return: no return
  */
-void print_all(const char * const format, ...)
+void print_char(va_list arg);
 {
 	va_list list;
 	unsigned int i = 0, j, c = 0;
